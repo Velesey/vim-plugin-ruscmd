@@ -18,6 +18,8 @@ if !exists('g:no_plugin_abbrev') && !exists('g:no_ruscmd_abbrev')
 	cabbrev <expr> йф	getcmdtype()==':' && getcmdline()=="йф"	? "qa"	: "йф"
 	cabbrev <expr> ц	getcmdtype()==':' && getcmdline()=="ц"	? "w"	: "ц"
 	cabbrev <expr> цй	getcmdtype()==':' && getcmdline()=="цй"	? "wq"	: "цй"
+	cabbrev <expr> тщр	getcmdtype()==':' && getcmdline()=="тщр"? "noh"	: "тщр"
+	cabbrev <expr> ыщгксу	getcmdtype()==':' && getcmdline()=="ыщгксу"? "source"	: "ыщгксу"
 endif
 
 if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
